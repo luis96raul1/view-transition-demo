@@ -41,7 +41,6 @@ body {
 }
 
 .TOP-container {
-  view-transition-name: artists;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,6 +51,39 @@ body {
 .TOP-container img {
   height: 100%;
   width: 100%;
+}
+
+#page1 .TOP-container a {
+  position: relative;
+  display: block;
+  z-index: 0;
+}
+
+#page1 .TOP-container a > img {
+  width: 600px;
+}
+
+
+#page1 .TOP-container .hidden-images-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  width: 600px;
+  justify-content: center;
+}
+
+#page1 .TOP-container .hidden-images-container img {
+  width: 240px;
+}
+
+.Josh {
+  view-transition-name: josh;
+}
+
+.Tyler {
+  view-transition-name: tyler;
 }
 
 #page3 {
@@ -73,11 +105,19 @@ body {
 
 #page3 .TOP-container div {
   display: flex;
-  gap: 300px;
+  gap: 350px;
+}
+
+#page1 .TOP-container .Josh {
+  object-view-box: inset(0% 49% 1% 10%);
 }
 
 #page3 .TOP-container .Josh {
   object-view-box: inset(2% 50% 15% 16%);
+}
+
+#page1 .TOP-container .Tyler {
+  object-view-box: inset(0% 9% -4% 50%);
 }
 
 #page3 .TOP-container .Tyler {
@@ -85,7 +125,7 @@ body {
 }
 
 #page3 .TOP-container img {
-  width: 400px;
+  width: 450px;
   height: auto;
 }
 
