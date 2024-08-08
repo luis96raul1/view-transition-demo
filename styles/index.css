@@ -54,16 +54,39 @@ body {
   width: 100%;
 }
 
-#page2 .TOP-container {
-  position: absolute;
-  top: 70%;
-  right: 0;
-  transform: none;
-  width: 30%;
+#page3 {
+  display: flex;
+  height: 100dvh;
 }
 
-#page2 .TOP-container img {
-  object-view-box: inset(0% 19% -33% 57%);
+#page3 .TOP-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: initial;
+  transform: initial;
+  margin: auto;
+}
+
+#page3 .TOP-container div {
+  display: flex;
+  gap: 300px;
+}
+
+#page3 .TOP-container .Josh {
+  object-view-box: inset(2% 50% 15% 16%);
+}
+
+#page3 .TOP-container .Tyler {
+  object-view-box: inset(2% 21% 15% 45%);
+}
+
+#page3 .TOP-container img {
+  width: 400px;
+  height: auto;
 }
 
 .album {
