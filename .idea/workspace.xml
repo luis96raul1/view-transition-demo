@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca93d21-362e-4921-b929-2c10be42ed76" name="Changes" comment="added artists page">
+    <list default="true" id="0ca93d21-362e-4921-b929-2c10be42ed76" name="Changes" comment="New animation for artists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/page3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <updated>1723082406393</updated>
       <workItem from="1723082407415" duration="5629000" />
       <workItem from="1723088112268" duration="1008000" />
-      <workItem from="1723157928787" duration="3338000" />
+      <workItem from="1723157928787" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="Removed useless files">
       <option name="closed" value="true" />
@@ -99,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723159999248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New animation for artists">
+      <option name="closed" value="true" />
+      <created>1723161387755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723161387755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed useless files" />
     <MESSAGE value="added artists page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added artists page" />
+    <MESSAGE value="New animation for artists" />
+    <option name="LAST_COMMIT_MESSAGE" value="New animation for artists" />
   </component>
 </project>
